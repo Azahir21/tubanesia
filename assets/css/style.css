@@ -21,7 +21,7 @@ body {
 }
 
 nav {
-   position: relative;
+   position: fixed;
    z-index: 100000;
    transition: .5s;
 }
