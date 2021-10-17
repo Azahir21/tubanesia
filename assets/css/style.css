@@ -113,5 +113,13 @@ section.banner {
 }
 
 ::-webkit-scrollbar {
-   display: none;
+   position: absolute;
+   width: 20px;
+   background-color: transparent;
 }
+ ::-webkit-scrollbar-thumb {
+    background-color: var(--light-blue-color);
+    border-radius: 20px;
+    border: 7px solid transparent;
+    background-clip: content-box;
+ }
